@@ -21,4 +21,10 @@ settings =
 			UILaunchStoryboardName = "LaunchScreen",
 		},
 	},
+	plugins = {
+		["plugin.appleSignIn"] =
+	        {
+	            publisherId = "tech.scotth",
+	        },
+	},
 }
