@@ -20,6 +20,9 @@ settings =
 		{
 			UILaunchStoryboardName = "LaunchScreen",
 		},
+		entitlements = {
+		    ["com.apple.developer.applesignin"] = {"Default"},
+		}
 	},
 	plugins = {
 		["plugin.appleSignIn"] =
